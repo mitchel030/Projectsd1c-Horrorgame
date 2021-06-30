@@ -4,7 +4,6 @@ open class Enemy(var name: String, var life: Int = 1, var hitpoints: Int = 5) {
         val remainingHitpoints = hitpoints - damage
         if (remainingHitpoints > 0){
             hitpoints = remainingHitpoints
-            println(" je hebt $damage damage tegen je gekregen. je hebt nog $hitpoints hitpoints")
         }else {
             if (life < 1){
                 life -= 1

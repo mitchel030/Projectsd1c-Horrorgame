@@ -211,10 +211,10 @@ fun main(args: Array<String>) {
         println("opeens stapt dr. Doofenschmirtz eruit!")
         Thread.sleep(500)
 
-        val Doofenschmirtz = Doofenschmirtz("Zombie Candice", 1)
-        println("laat je brein niet opeten!")
+        val Doofenschmirtz = Doofenschmirtz("Doofenschmirtz", 1)
+        println("dit is het gevecht!")
         while(Doofenschmirtz.life > 0) {
-            println("Steek haar neer")
+            println("pak hem")
             Thread.sleep(1000)
             println("typ 1 om aan te vallen")
             Thread.sleep(1000)
